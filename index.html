@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Sunandar</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .timeline {
+      border-left: 3px solid #0d6efd;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+    .timeline-item {
+      margin-bottom: 20px;
+    }
+    .custom-shape-divider-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+    .custom-shape-divider-bottom svg {
+      position: relative;
+      display: block;
+      width: calc(137% + 1.3px);
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sunandar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skill</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Overview -->
+  <section id="overview" class="bg-primary text-white text-center position-relative" style="padding-bottom: 100px;">
+    <div class="container">
+      <img src="image/nandar.jpeg" alt="Foto Sunandar" class="profile-img mb-3" />
+      <h2 class="mb-2"><i class="bi bi-person-circle"></i> Halo, Saya Sunandar</h2>
+      <p class="lead">Saya bekerja di PDAM sebagai operator dengan minat besar di bidang teknologi dan pengembangan web.</p>
+    </div>
+
+    <!-- Gelombang -->
+    <div class="custom-shape-divider-bottom">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,82.29c-60.52,0-120.56-27.88-180-42.94C711.06,20.58,
+        652.36,5.22,593.2,3.69c-59.6-1.54-117.74,10.6-176.54,25.65C358.44,
+        44.61,298.78,66.72,239.16,77.71c-59.17,11-117.59,8.67-176.69-4.49V120H1200
+        V94.84C1141.11,83.89,1082.3,82.29,985.66,82.29Z" opacity="0.25" fill="#fff"></path>
+        <path d="M985.66,65.29c-60.52,0-120.56-18.88-180-28.94C711.06,
+        25.58,652.36,15.22,593.2,13.69c-59.6-1.54-117.74,0.6-176.54,
+        15.65C358.44,44.61,298.78,55.72,239.16,65.71c-59.17,
+        10-117.59,6.67-176.69-2.49V120H1200V84.84C1141.11,
+        73.89,1082.3,65.29,985.66,65.29Z" opacity="0.5" fill="#fff"></path>
+        <path d="M0,0V15.81C55.3,35.16,115.36,41.42,
+        176,40.29c63.24-1.17,125.13-11.78,
+        188-17.16C443.49,16.22,506.06,21,
+        568,29.58c59.18,8.21,116.86,
+        20.52,176,24.7,58.9,4.15,
+        117.31-.56,176-8.36,
+        31.61-4.19,63.2-9.78,
+        95-10.25,60.48-.87,
+        119.6,12.49,185,
+        27.13V0Z" fill="#fff"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="bi bi-info-circle-fill"></i> Tentang Saya</h2>
+      <p class="text-center">Saya memiliki ketertarikan dan keahlian dalam dunia IT dan pemrograman web. Dengan latar belakang sebagai operator di PDAM, saya terus belajar dan mengembangkan keterampilan di bidang HTML, CSS, JavaScript, serta pengelolaan sistem teknologi informasi.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="bi bi-lightning-charge-fill"></i> Skill</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item"><i class="bi bi-code-slash"></i> HTML</li>
+            <li class="list-group-item"><i class="bi bi-palette-fill"></i> CSS</li>
+            <li class="list-group-item"><i class="bi bi-braces"></i> JavaScript</li>
+            <li class="list-group-item"><i class="bi bi-globe"></i> Web Development</li>
+            <li class="list-group-item"><i class="bi bi-cpu-fill"></i> IT Support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+<section id="portfolio" style="background: linear-gradient(to right, #fdfbfb, #ebedee);">
+  <div class="container">
+    <h2 class="text-center mb-4"><i class="bi bi-images"></i> Portfolio</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="image/1.webp" class="card-img-top" alt="Project 1">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="image/2.jfif" class="card-img-top" alt="Project 2">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="image/3.jpg" class="card-img-top" alt="Project 3">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Pendidikan -->
+  <section id="education">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="bi bi-mortarboard-fill"></i> Timeline Pendidikan</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h5>2009 - 2012</h5>
+          <p><i class="bi bi-building"></i> SMAN 1 Serang</p>
+        </div>
+        <div class="timeline-item">
+          <h5>2013 - 2017</h5>
+          <p><i class="bi bi-bank2"></i> Teknik Informatika - Universitas Serang Raya</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="bi bi-envelope-fill"></i> Kontak Saya</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-send-fill"></i> Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Sunandar | Portofolio</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
